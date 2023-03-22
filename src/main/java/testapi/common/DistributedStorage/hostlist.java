@@ -1,0 +1,1 @@
+package testapi.common.DistributedStorage;import cn.afterturn.easypoi.excel.annotation.Excel;public class hostlist {    @Excel(name = "ip")    private String  ip;    public String getIp() {        return ip;    }    public void setIp(String ip) {        this.ip = ip;    }}
